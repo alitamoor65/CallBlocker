@@ -1,9 +1,9 @@
 # Android Call Blocker
 
-#Step 1:
+Step 1:
   - create a new project in Android Studio
 
-#Step 2:
+Step 2:
   - create an AIDL folder 
   - create a new package in `AIDL` folder name must be `com.android.internal.telephony`
   - create an `AIDL` file in that package name must be the `ITelephony.aidl`
@@ -16,7 +16,7 @@
     void silenceRinger();
   }
 ```
-#Step 3:
+Step 3:
   - now its time to block all incomming calls
   - Create a a `BroadcastReceiver` `class`
   - add that code to the class
@@ -76,4 +76,4 @@ public class CallReceiver extends BroadcastReceiver {
 }
 
 ```
-#try this out, facing any issue? let me know
+try this out, facing any issue? let me know
